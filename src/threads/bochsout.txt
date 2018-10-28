@@ -1,0 +1,99 @@
+00000000000i[     ] Bochs x86 Emulator 2.2.6
+00000000000i[     ]   Build from CVS snapshot on January 29, 2006
+00000000000i[     ] System configuration
+00000000000i[     ]   processors: 1
+00000000000i[     ]   A20 line support: yes
+00000000000i[     ]   APIC support: no
+00000000000i[     ] CPU configuration
+00000000000i[     ]   level: 5
+00000000000i[     ]   fpu support: yes
+00000000000i[     ]   paging support: yes, tlb enabled: yes
+00000000000i[     ]   mmx support: yes
+00000000000i[     ]   sse support: no
+00000000000i[     ]   v8086 mode support: yes
+00000000000i[     ]   VME support: yes
+00000000000i[     ]   3dnow! support: no
+00000000000i[     ]   PAE support: no
+00000000000i[     ]   PGE support: no
+00000000000i[     ]   PSE support: yes
+00000000000i[     ]   x86-64 support: no
+00000000000i[     ]   SEP support: no
+00000000000i[     ] Optimization configuration
+00000000000i[     ]   Guest2HostTLB support: no
+00000000000i[     ]   RepeatSpeedups support: no
+00000000000i[     ]   Icache support: no
+00000000000i[     ]   Host Asm support: yes
+00000000000i[     ]   Fast function calls: no
+00000000000i[     ] Devices configuration
+00000000000i[     ]   NE2000 support: no
+00000000000i[     ]   PCI support: no
+00000000000i[     ]   SB16 support: no
+00000000000i[     ]   USB support: no
+00000000000i[     ]   VGA extension support:  
+00000000000i[MEM0 ] allocated memory at 0x7efe2ccc7010. after alignment, vector=0x7efe2ccc8000
+00000000000i[MEM0 ] 4.00MB
+00000000000i[MEM0 ] rom at 0xf0000/65536 ('/usr/local/share/bochs/BIOS-bochs-latest')
+00000000000i[MEM0 ] rom at 0xc0000/32768 ('/usr/local/share/bochs/VGABIOS-lgpl-latest')
+00000000000i[CMOS ] Using specified time for initial clock
+00000000000i[CMOS ] Setting initial clock to: Thu Jan  1 00:00:00 1970 (time0=0)
+00000000000i[DMA  ] channel 4 used by cascade
+00000000000i[DMA  ] channel 2 used by Floppy Drive
+00000000000i[VGA  ] interval=40000
+00000000000i[     ] init_mem of 'harddrv' plugin device by virtual method
+00000000000i[     ] init_mem of 'keyboard' plugin device by virtual method
+00000000000i[     ] init_mem of 'serial' plugin device by virtual method
+00000000000i[     ] init_mem of 'parallel' plugin device by virtual method
+00000000000i[     ] init_mem of 'extfpuirq' plugin device by virtual method
+00000000000i[     ] init_mem of 'speaker' plugin device by virtual method
+00000000000i[     ] init_dev of 'harddrv' plugin device by virtual method
+00000000000i[HD   ] HD on ata0-0: '/tmp/Ls8Q6CIrmP.dsk' 'flat' mode 
+00000000000i[HD   ] Using boot sequence disk, none, none
+00000000000i[HD   ] Floppy boot signature check is enabled
+00000000000i[     ] init_dev of 'keyboard' plugin device by virtual method
+00000000000i[KBD  ] will paste characters every 1000 keyboard ticks
+00000000000i[     ] init_dev of 'serial' plugin device by virtual method
+00000000000i[SER  ] com1 at 0x03f8 irq 4
+00000000000i[     ] init_dev of 'parallel' plugin device by virtual method
+00000000000i[PAR  ] parallel port 1 at 0x0378 irq 7
+00000000000i[     ] init_dev of 'extfpuirq' plugin device by virtual method
+00000000000i[     ] init_dev of 'speaker' plugin device by virtual method
+00000000000i[SPEAK] Failed to open /dev/console: Permission denied
+00000000000i[SPEAK] Deactivating beep on console
+00000000000i[     ] reset of 'harddrv' plugin device by virtual method
+00000000000i[     ] reset of 'keyboard' plugin device by virtual method
+00000000000i[     ] reset of 'serial' plugin device by virtual method
+00000000000i[     ] reset of 'parallel' plugin device by virtual method
+00000000000i[     ] reset of 'extfpuirq' plugin device by virtual method
+00000000000i[     ] reset of 'speaker' plugin device by virtual method
+00000003740i[BIOS ] $Revision: 1.160 $ $Date: 2006/01/25 17:51:49 $
+00000317563i[KBD  ] reset-disable command received
+00000425250i[VBIOS] VGABios $Id: vgabios.c,v 1.63 2005/12/26 19:50:26 vruppert Exp $
+00000428257i[VBIOS] VBE Bios $Id: vbe.c,v 1.48 2005/12/26 19:50:26 vruppert Exp $
+00000737822i[BIOS ] ata0-0: PCHS=1/16/63 translation=none LCHS=1/16/63
+00000786523e[HD   ] ata0: device set to 1 which does not exist
+00000786815e[HD   ] ata1: device set to 0 which does not exist
+00000787108e[HD   ] ata1: device set to 1 which does not exist
+00011061901p[UNMP ] >>PANIC<< Shutdown port: shutdown requested
+00011061901i[SYS  ] Last time is 11
+00011061901i[NGUI ] bx_nogui_gui_c::exit() not implemented yet.
+00011061901i[CPU  ] protected mode
+00011061901i[CPU  ] CS.d_b = 32 bit
+00011061901i[CPU  ] SS.d_b = 32 bit
+00011061901i[CPU  ] | EAX=0000006e  EBX=c002ff82  ECX=ffff8900  EDX=ffff8900
+00011061901i[CPU  ] | ESP=c002ff70  EBP=c002ff88  ESI=00000000  EDI=c0112c00
+00011061901i[CPU  ] | IOPL=0 id vip vif ac vm rf nt of df IF tf sf zf af pf cf
+00011061901i[CPU  ] | SEG selector     base    limit G D
+00011061901i[CPU  ] | SEG sltr(index|ti|rpl)     base    limit G D
+00011061901i[CPU  ] |  CS:0008( 0001| 0|  0) 00000000 000fffff 1 1
+00011061901i[CPU  ] |  DS:0010( 0002| 0|  0) 00000000 000fffff 1 1
+00011061901i[CPU  ] |  SS:0010( 0002| 0|  0) 00000000 000fffff 1 1
+00011061901i[CPU  ] |  ES:0010( 0002| 0|  0) 00000000 000fffff 1 1
+00011061901i[CPU  ] |  FS:0010( 0002| 0|  0) 00000000 000fffff 1 1
+00011061901i[CPU  ] |  GS:0010( 0002| 0|  0) 00000000 000fffff 1 1
+00011061901i[CPU  ] | EIP=c0100069 (c0100068)
+00011061901i[CPU  ] | CR0=0x80010015 CR1=0 CR2=0x00000000
+00011061901i[CPU  ] | CR3=0x00112000 CR4=0x00000000
+00011061901i[CPU  ] >> ee
+00011061901i[CPU  ] >> : out dx, al
+00011061901i[     ] restoring default signal behavior
+00011061901i[CTRL ] quit_sim called with exit code 1
